@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- W3schools CSS -->
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+    <!-- Titulo da Pagina -->
+    <title>Jacarandará</title>
+    
+    <!-- Icone da Página -->
+    <link rel="shortcut icon" href="https://cdn.awsli.com.br/400x300/1750/1750541/logo/fd41281395.jpg"
+        type="image/x-icon">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <style>
+        /*Importando fonte Roboto do Google Fonts*/
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            color: white;
+            background-color: white;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        p {
+            font-weight: bold;
+            color: white;
+            font-size: 18px;
+        }
+
+        button {
+            border-radius: 5px;
+            display: block;
+            margin: 20px auto;
+            background-color: white;
+            border: 0;
+            color: rgb(0, 103, 34);
+            font-weight: bold;
+            cursor: pointer;
+            padding: 12px 20px;
+        }
+
+        button:hover {
+            transform: scale(1.1);
+            text-decoration: underline;
+        }
+
+        .popup-wrapper {
+            background-color: rgba(0, 0, 0, .5);
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            display: none;
+        }
+
+        .popup {
+            border-radius: 5px;
+            text-align: center;
+            width: auto;
+            max-width: 600px;
+            margin: 10% auto;
+            padding: 20px;
+            background-color: white;
+            position: relative;
+            top: 500;
+        }
+
+        .popup a {
+            border-radius: 5px;
+            color: white;
+            cursor: pointer;
+            padding: 6px 10px;
+            text-decoration: none;
+            background-color: rgb(0, 103, 34);
+        }
+
+        p {
+            margin: 25px;
+            text-align: justify;
+        }
+
+        .popup-close {
+            position: absolute;
+            top: 10px;
+            right: 20px;
+            cursor: pointer;
+        }
+
+        #title-descricao {
+            color: white;
+            margin-bottom: 25px;
+        }
+
+        .design {
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-items: center;
+            margin-bottom: 25px;
+            margin-top: 25px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <!-- BANNER DA MARCA JACARANDARA -->
+    <div class="container-jacarandara" style="box-shadow: white; margin-top: 25px; display: flex; align-items: center; justify-content: center; width: 100%; color: white;">
+        <img src="https://cdn.awsli.com.br/2000x2000/1750/1750541/banner/cd250b622a.png" alt="" style="width: 100%;">
+    </div>
+
+    <!-- TITULO DA PAGINA -->
+    <div class="container-description" style="box-shadow: white; border-radius: 10px; width: 100%; text-align: justify; background-color: rgb(0, 103, 34); padding: 50px; margin-top: 50px;">
+        <h2 id="title-descricao" style="text-align: center; margin-top: 25px; font-size: 24px;">Caixa de Assinatura Jacarandá</h2>
+    </div>
+
+    <!-- CORPO DA PAGINA JACARANDA -->
+    <div class="container" style="padding-bottom: 80px; margin-top: 50px; display: flex; flex-wrap: wrap; align-items: center; justify-content: center; box-shadow: 0 3px 10px 0 rgb(0 0 0 / 15%); width: 100%; margin-left: auto; margin-right: auto;">
+
+        <!-- FOTO 1 -->
+        <div class="design">
+            <img src="https://cdn.awsli.com.br/1746/1746851/arquivos/caixa.jpeg"
+                style="width: 450px; border-radius: 50px;">
+            <p style="color: rgb(0, 103, 34); max-width: 400px;">Lorem ipsum dolor sit amet consectetur adipisicing
+                elit.
+                Neque quam, quibusdam repellendus saepe nobis ad corrupti animi modi? Praesentium cupiditate, aspernatur
+                facilis eius dolore temporibus voluptatem nam debitis vel voluptatibus.</p>
+        </div>
+
+        <!-- FOTO 2 -->
+        <div class="design">
+            <p style="color: rgb(0, 103, 34); max-width: 400px;">Lorem ipsum dolor sit amet consectetur adipisicing
+                elit.
+                Neque quam, quibusdam repellendus saepe nobis ad corrupti animi modi? Praesentium cupiditate, aspernatur
+                facilis eius dolore temporibus voluptatem nam debitis vel voluptatibus.</p>     
+            <img src="https://cdn.awsli.com.br/1746/1746851/arquivos/ecopad 1.jpeg"
+                style="height: 300px; border-radius: 50px;">                   
+        </div>
+
+        <!-- FOTO 3 -->
+        <div class="design">
+            <img src="https://cdn.awsli.com.br/1746/1746851/arquivos/ecopad 2.jpeg"
+                style="border-radius: 50px; height: 300px;">
+            <p style="color: rgb(0, 103, 34); max-width: 400px;">Lorem ipsum dolor sit amet consectetur adipisicing
+                elit.
+                Neque quam, quibusdam repellendus saepe nobis ad corrupti animi modi? Praesentium cupiditate, aspernatur
+                facilis eius dolore temporibus voluptatem nam debitis vel voluptatibus.</p>            
+        </div>
+
+        <!-- FOTO 4 -->
+        <div class="design">
+            <p style="color: rgb(0, 103, 34); max-width: 400px;">Lorem ipsum dolor sit amet consectetur adipisicing
+                elit.
+                Neque quam, quibusdam repellendus saepe nobis ad corrupti animi modi? Praesentium cupiditate, aspernatur
+                facilis eius dolore temporibus voluptatem nam debitis vel voluptatibus.</p>
+            <img src="https://cdn.awsli.com.br/1746/1746851/arquivos/sabonete coco.jpeg"
+                style="width:450px; border-radius: 50px;">
+        </div>
+
+        <!-- CARD 1 - COMPRA POR ASSINATURA -->
+        <div class="w3-container" style="margin-top: 50px; border-radius: 10px; display: flex; flex-wrap: wrap; justify-content: space-around;">
+            <div class="w3-card-4" style="width:400px; border-radius: 10px;">
+                <div class="w3-container w3-center" style="background-color: rgb(103, 0, 0); border-radius: 10px;">
+                    <p>Caixa de Assinatura Jacarandá</p>
+                    <p style="text-align: justify; font-weight: 400;">O Box Jacarandará contém diversos produtos
+                        surpresa ecológicos e sustentáveis perfeitos para você!</p>
+                    <details>
+                        <summary style="text-align: right; color: white;">detalhes</summary>
+                        <p style="text-align: justify; font-weight: 400;">Assinatura do Box Jacarandará é realizado
+                            através de um débito mensal. Podendo ser cancelado a qualquer momento.</p>
+                    </details>
+                    <button style="color: rgb(103, 0, 0);">Esgotado!</button>                    
+                </div>
+            </div>
+        </div>
+
+        <!-- CARD 2 - COMPRA POR UNIDADE -->
+        <div class="w3-container" style="margin-top: 50px; border-radius: 10px;">
+            <div class="w3-card-4" style="width:400px; border-radius: 10px;">
+                <div class="w3-container w3-center" style="background-color: rgb(0,103,34); border-radius: 10px;">
+                    <p>Box Jacarandará</p>
+                    <p style="text-align: justify; font-weight: 400;">O Box Jacarandará contém diversos produtos
+                        surpresa ecológicos e sustentáveis perfeitos para você!</p>
+                    <details>
+                        <summary style="text-align: right; color: white;">detalhes</summary>
+                        <p style="text-align: justify; font-weight: 400;">Assinatura do Box Jacarandará é realizado
+                            através de um débito mensal. Podendo ser cancelado a qualquer momento.</p>
+                    </details>
+                    <a target="_blank" href="https://projetos-de-robotica-x.lojaintegrada.com.br/teste-"
+                        style="text-decoration: none; "><button>Comprar unidade!</button></a>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+    <!-- FOOTER DESCRICAO -->
+    <div class="container-description" style="box-shadow: white; border-radius: 10px; width: 100%; text-align: justify; background-color: rgb(0, 103, 34); padding: 50px; margin-top: 50px;">
+        <h2 id="title-descricao">Descrição</h2>
+        <p style="color: white; font-weight: 400; margin: 0;">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            Cupiditate harum rerum ipsum incidunt ipsam, dolores distinctio ipsa alias libero iste exercitationem
+            eligendi commodi corporis assumenda? Facere laboriosam excepturi provident nulla.</p>
+    </div>
+    </script>
+
+</body>
+
+</html>
