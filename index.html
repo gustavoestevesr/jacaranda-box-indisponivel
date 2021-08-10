@@ -13,21 +13,19 @@
     <title>Jacarandará</title>
 
     <!-- Icone da Página -->
-    <link rel="shortcut icon" href="https://cdn.awsli.com.br/400x300/1750/1750541/logo/fd41281395.jpg"
-        type="image/x-icon">
+    <link rel="shortcut icon" href="https://cdn.awsli.com.br/400x300/1750/1750541/logo/fd41281395.jpg" type="image/x-icon">
 
     <!-- Bootstrap -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
     <style>
         /*Importando fonte Roboto do Google Fonts*/
+        
         @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
-
         * {
             box-sizing: border-box;
         }
-
+        
         body {
             margin: 0;
             padding: 0;
@@ -35,13 +33,13 @@
             background-color: white;
             font-family: 'Roboto', sans-serif;
         }
-
+        
         p {
             font-weight: bold;
             color: white;
             font-size: 18px;
         }
-
+        
         button {
             border-radius: 5px;
             display: block;
@@ -53,12 +51,12 @@
             cursor: pointer;
             padding: 12px 20px;
         }
-
+        
         button:hover {
             transform: scale(1.1);
             text-decoration: underline;
         }
-
+        
         .popup-wrapper {
             background-color: rgba(0, 0, 0, .5);
             position: fixed;
@@ -68,7 +66,7 @@
             height: 100%;
             display: none;
         }
-
+        
         .popup {
             border-radius: 5px;
             text-align: center;
@@ -80,7 +78,7 @@
             position: relative;
             top: 500;
         }
-
+        
         .popup a {
             border-radius: 5px;
             color: white;
@@ -89,25 +87,25 @@
             text-decoration: none;
             background-color: rgb(0, 103, 34);
         }
-
+        
         p {
             margin: 25px;
             text-align: justify;
         }
-
+        
         .popup-close {
             position: absolute;
             top: 10px;
             right: 20px;
             cursor: pointer;
         }
-
+        
         #title-descricao {
             color: white;
             margin-bottom: 25px;
             font-size: 42px;
         }
-
+        
         .design {
             width: 100%;
             display: flex;
@@ -117,60 +115,54 @@
             margin-bottom: 25px;
             margin-top: 25px;
         }
-
-
+        
         .column {
             float: left;
             width: 33.3%;
             padding: 10px;
             text-align: center;
         }
-
         /* Clear floats after the columns */
+        
         .row:after {
             content: "";
             display: table;
             clear: both;
         }
-
+        
         .container-description {
             padding: 50px;
         }
-
+        
         #title {
             font-size: 38px;
         }
-
+        
         summary {
             font-size: 20px;
         }
-
+        
         li {
             font-size: 18px;
         }
-
         /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+        
         @media screen and (max-width: 600px) {
             .column {
                 width: 100%;
             }
-
             #title-descricao {
                 font-size: 24px;
             }
-
             .container-description {
                 padding: 15px;
             }
-
             #title {
                 font-size: 24px;
             }
-
             summary {
                 font-size: 18px;
             }
-
             #ul-li {
                 margin-right: 25px;
             }
@@ -182,44 +174,34 @@
 <body>
 
     <!-- BANNER DA MARCA JACARANDARA -->
-    <div class="container-jacarandara"
-        style="box-shadow: white; margin-top: 25px; display: flex; align-items: center; justify-content: center; width: 100%; color: white;">
+    <div class="container-jacarandara" style="box-shadow: white; margin-top: 25px; display: flex; align-items: center; justify-content: center; width: 100%; color: white;">
         <img src="https://cdn.awsli.com.br/2000x2000/1750/1750541/banner/cd250b622a.png" alt="" style="width: 100%;">
     </div>
 
     <!-- TITULO DA PAGINA -->
-    <div class="container-description"
-        style="box-shadow: white; border-radius: 10px; width: 100%; text-align: justify; background-color: rgb(0, 103, 34); margin-top: 50px;">
+    <div class="container-description" style="box-shadow: white; border-radius: 10px; width: 100%; text-align: justify; background-color: rgb(0, 103, 34); margin-top: 50px;">
         <h2 id="title-descricao" style="text-align: center; margin-top: 25px;">Caixa de Assinatura Jacarandá</h2>
     </div>
 
     <!-- CORPO DA PAGINA JACARANDA -->
-    <div class="container"
-        style="padding-bottom: 80px; margin-top: 50px; display: flex; flex-wrap: wrap; align-items: center; justify-content: center; box-shadow: 0 3px 10px 0 rgb(0 0 0 / 15%); width: 100%; margin-left: auto; margin-right: auto;">
+    <div class="container" style="padding-bottom: 80px; margin-top: 50px; display: flex; flex-wrap: wrap; align-items: center; justify-content: center; box-shadow: 0 3px 10px 0 rgb(0 0 0 / 15%); width: 100%; margin-left: auto; margin-right: auto;">
 
-        <p id="title"
-            style="color: rgb(0, 103, 34); font-weight: 400; width: 100%; text-align: center; margin-top: 60px">Como
-            Funciona?
+        <p id="title" style="color: rgb(0, 103, 34); font-weight: 400; width: 100%; text-align: center; margin-top: 60px">Como Funciona?
         </p>
 
         <div class="row" style="margin: auto; max-width: 700px;">
             <div class="colum" style="display: flex; justify-content: center; align-items: center; ">
-                <p
-                    style="background-color: rgb(0, 103, 34);color: white; font-weight: 400; padding: 20px; padding-left: 25px; padding-right: 25px; border-radius: 50px; text-align: center; margin: 0;">
+                <p style="background-color: rgb(0, 103, 34);color: white; font-weight: 400; padding: 20px; padding-left: 25px; padding-right: 25px; border-radius: 50px; text-align: center; margin: 0;">
                     1</p>
-                <p style="color: rgb(0, 103, 34); font-weight: 400;">Escolha entre a <strong>Assinatura Mensal</strong>
-                    ou a <strong>Caixa de Produtos Jacarandá</strong>.</p>
+                <p style="color: rgb(0, 103, 34); font-weight: 400;">Escolha entre a <strong>Assinatura Mensal</strong> ou a <strong>Caixa de Produtos Jacarandá</strong>.</p>
             </div>
             <div class="colum" style="display: flex; justify-content: center; align-items: center;">
-                <p
-                    style="background-color: rgb(0, 103, 34);color: white; font-weight: 400; padding: 20px; padding-left: 25px; padding-right: 25px; border-radius: 50px; text-align: center; margin: 0; margin-top: 20px;">
+                <p style="background-color: rgb(0, 103, 34);color: white; font-weight: 400; padding: 20px; padding-left: 25px; padding-right: 25px; border-radius: 50px; text-align: center; margin: 0; margin-top: 20px;">
                     2</p>
-                <p style="color: rgb(0, 103, 34); font-weight: 400;"><strong>Realize o pagamento</strong> através do
-                    Mercado Pago.</p>
+                <p style="color: rgb(0, 103, 34); font-weight: 400;"><strong>Realize o pagamento</strong> através do Mercado Pago.</p>
             </div>
             <div class="colum" style="display: flex; justify-content: center; align-items: center;">
-                <p
-                    style="background-color: rgb(0, 103, 34);color: white; font-weight: 400; padding: 20px; padding-left: 25px; padding-right: 25px; border-radius: 50px; text-align: center; margin: 0; margin-top: 20px;">
+                <p style="background-color: rgb(0, 103, 34);color: white; font-weight: 400; padding: 20px; padding-left: 25px; padding-right: 25px; border-radius: 50px; text-align: center; margin: 0; margin-top: 20px;">
                     3</p>
                 <p style="color: rgb(0, 103, 34); font-weight: 400;">Pronto! <strong>Aguarde a sua caixa de produtos
                         Jacarandá chegar.</p>
@@ -243,219 +225,190 @@
                     pausa
                     e conexão.
                 </strong>
-            </p>
-            <p style="color: rgb(0, 103, 34); font-weight: 400; text-align: justify; width: 100%; margin-top: 0;">
-                <strong>
+                </p>
+                <p style="color: rgb(0, 103, 34); font-weight: 400; text-align: justify; width: 100%; margin-top: 0;">
+                    <strong>
                     Produtos para cuidar
                     de você e da
                     sua casa por
                     inteiro,
                 </strong> na sua porta<strong> mensalmente</strong>, em <strong>embalagens biodegradáveis</strong>, <strong>recicláveis</strong> ou <strong>compostáveis</strong>.</p>
-            <p style="color: rgb(0, 103, 34); font-weight: 400; text-align: center; width: 100%; margin-top: 0;">
-                Para <strong>
+                <p style="color: rgb(0, 103, 34); font-weight: 400; text-align: center; width: 100%; margin-top: 0;">
+                    Para <strong>
                     mudanças de
                     hábitos
-                </strong>
-                    que<strong>
+                </strong> que
+                    <strong>
                         preservam você e o
                         planeta
                                          Terra.
                     </strong></p>
-            <p style="color: rgb(0, 103, 34); font-weight: 400; text-align: center; width: 100%; margin-top: 0;">
-                <strong>
+                <p style="color: rgb(0, 103, 34); font-weight: 400; text-align: center; width: 100%; margin-top: 0;">
+                    <strong>
                     Sem
                     ingredientes tóxicos e sintéticos.
                 </strong></p>
 
-            <p style="color: rgb(0, 103, 34); font-weight: 400; text-align: center; width: 100%; margin-top: 0;">
-                Tudo isso <strong>
+                <p style="color: rgb(0, 103, 34); font-weight: 400; text-align: center; width: 100%; margin-top: 0;">
+                    Tudo isso <strong>
                     sem ter
                     que sair de casa!
                 </strong>
-            </p>
-        </div>
-
-        <p id="title" style="color: rgb(0, 103, 34); font-weight: 400;  text-align: center; margin-top: 60px">Você
-            receberá
-            mensalmente:
-        </p>
-
-        <!-- FOTO 1 -->
-        <div class="design">
-            <img src="https://cdn.awsli.com.br/1746/1746851/arquivos/caixa.jpeg"
-                style="width: 350px; border-radius: 50px;">
-            <div class="descricao-foto1">
-                <p style="color: rgb(0, 103, 34); max-width: 450px; font-weight: 400;">Uma <strong>caixa-assinatura
-                        mensalmente</strong>
-                    na sua porta, com produtos de uso diário e a quantidade ideal para o consumo até a próxima caixa
-                    chegar:</p>
-                <ul id="ul-li">
-                    <li style="color: rgb(0, 103, 34); font-weight: 400;">Sem desperdício.</li>
-                    <li style="color: rgb(0, 103, 34); font-weight: 400;">Feito de ingredientes naturais e orgânicos.
-                    </li>
-                    <li style="color: rgb(0, 103, 34); font-weight: 400;">Embalagens biodegradáveis ou reutilizáveis.
-                    </li>
-                    <li style="color: rgb(0, 103, 34); font-weight: 400;">Cause menos impacto negativo ao meio ambiente
-                        com suas rotinas.
-                    </li>
-                </ul>
+                </p>
             </div>
-        </div>
 
-        <!-- FOTO 2 -->
-        <div class="design">
-            <p style="color: rgb(0, 103, 34); max-width: 450px; font-weight: 400;">As <strong>buchas vegetais</strong>
-                são uma opção mais sustentável do que a esponja de cozinha e de banho. Por ser biodegradável e
-                compostável não gera impacto ao meio ambiente.<br><br>Ela realiza uma esfoliação natural, pois o atrito
-                das fibras naturais sobre a pele promove a  retirada de impurezas e células mortas. Por ser um produto
-                artesanal as medidas podem variar.</p>
-            <img src="https://cdn.awsli.com.br/1746/1746851/arquivos/ecopad 1.jpeg"
-                style="height: 250px; border-radius: 50px;">
-        </div>
+            <p id="title" style="color: rgb(0, 103, 34); font-weight: 400;  text-align: center; margin-top: 60px">Você receberá mensalmente:
+            </p>
 
-        <!-- FOTO 3 -->
-        <div class="design">
-            <img src="https://cdn.awsli.com.br/1746/1746851/arquivos/ecopad 2.jpeg"
-                style="border-radius: 50px; height: 250px;">
-            <div class="descricao-foto1">
-                <p style="color: rgb(0, 103, 34); max-width: 450px; text-align: justify; font-weight: 400;">Os <strong>
+            <!-- FOTO 1 -->
+            <div class="design">
+                <img src="https://cdn.awsli.com.br/1746/1746851/arquivos/caixa.jpeg" style="width: 350px; border-radius: 50px;">
+                <div class="descricao-foto1">
+                    <p style="color: rgb(0, 103, 34); max-width: 450px; font-weight: 400;">Uma <strong>caixa-assinatura
+                        mensalmente</strong> na sua porta, com produtos de uso diário e a quantidade ideal para o consumo até a próxima caixa chegar:
+                    </p>
+                    <ul id="ul-li">
+                        <li style="color: rgb(0, 103, 34); font-weight: 400;">Sem desperdício.</li>
+                        <li style="color: rgb(0, 103, 34); font-weight: 400;">Feito de ingredientes naturais e orgânicos.
+                        </li>
+                        <li style="color: rgb(0, 103, 34); font-weight: 400;">Embalagens biodegradáveis ou reutilizáveis.
+                        </li>
+                        <li style="color: rgb(0, 103, 34); font-weight: 400;">Cause menos impacto negativo ao meio ambiente com suas rotinas.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- FOTO 2 -->
+            <div class="design">
+                <p style="color: rgb(0, 103, 34); max-width: 450px; font-weight: 400;">As <strong>buchas vegetais</strong> são uma opção mais sustentável do que a esponja de cozinha e de banho. Por ser biodegradável e compostável não gera impacto ao meio ambiente.<br><br>Ela realiza uma esfoliação natural, pois o atrito
+                    das fibras naturais sobre a pele promove a  retirada de impurezas e células mortas. Por ser um produto artesanal as medidas podem variar.</p>
+                <img src="https://cdn.awsli.com.br/1746/1746851/arquivos/ecopad 1.jpeg" style="height: 250px; border-radius: 50px;">
+            </div>
+
+            <!-- FOTO 3 -->
+            <div class="design">
+                <img src="https://cdn.awsli.com.br/1746/1746851/arquivos/ecopad 2.jpeg" style="border-radius: 50px; height: 250px;">
+                <div class="descricao-foto1">
+                    <p style="color: rgb(0, 103, 34); max-width: 450px; text-align: justify; font-weight: 400;">Os <strong>
                         discos de
                         crochê ecológicos
-                    </strong> que substituem o algodão perfeitamente nos cuidados do dia a dia.<br>Maneiras de
-                    usar:</p>
-                <ul id="ul-li">
-                    <li style="color: rgb(0, 103, 34); font-weight: 400; width: 100%;">Para remoção da maquiagem.</li>
-                    <li style="color: rgb(0, 103, 34); font-weight: 400; width: 100%; text-align: justify;">Para
-                        aplicação ou remoção de máscaras
-                        faciais.<br>(Devido ao ponto de crochê, a ecopad favorece<br>e facilita a remoção de
-                        máscaras faciais mais densas)</li>
-                    <li style="color: rgb(0, 103, 34); font-weight: 400; width: 100%;">Para limpeza e esfoliação facial.
-                    </li>
-                    <li style="color: rgb(0, 103, 34); font-weight: 400; width: 100%;">Para ajudar a espalhar algum
-                        creme.</li>
-                    <li style="color: rgb(0, 103, 34); font-weight: 400; width: 100%;">Para remoção de esmaltes de unha.
-                    </li>
-                </ul>
+                    </strong> que substituem o algodão perfeitamente nos cuidados do dia a dia.<br>Maneiras de usar:
+                    </p>
+                    <ul id="ul-li">
+                        <li style="color: rgb(0, 103, 34); font-weight: 400; width: 100%;">Para remoção da maquiagem.</li>
+                        <li style="color: rgb(0, 103, 34); font-weight: 400; width: 100%; text-align: justify;">Para aplicação ou remoção de máscaras faciais.
+                            <br>(Devido ao ponto de crochê, a ecopad favorece<br>e facilita a remoção de máscaras faciais mais densas)</li>
+                        <li style="color: rgb(0, 103, 34); font-weight: 400; width: 100%;">Para limpeza e esfoliação facial.
+                        </li>
+                        <li style="color: rgb(0, 103, 34); font-weight: 400; width: 100%;">Para ajudar a espalhar algum creme.
+                        </li>
+                        <li style="color: rgb(0, 103, 34); font-weight: 400; width: 100%;">Para remoção de esmaltes de unha.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- FOTO 4 -->
+            <div class="design">
+                <p style="color: rgb(0, 103, 34); max-width: 450px; font-weight: 400;">O <strong>sabão em pó
+                    multiuso</strong> é feito de óleo de coco orgânico e bicarbonato de sódio, esse é um produto multiuso e será seu maior aliado pra limpar a casa inteira. Perfeito para lavar roupas, limpar vidros, lavar louça, limpar fogão etc <br><br>Enfim,
+                    um multiuso completo com instruções para cada finalidade, que não agride você, nem a sua família e nem o planeta.</p>
+                <img src="https://cdn.awsli.com.br/1746/1746851/arquivos/sabonete coco.jpeg" style="width:350px; border-radius: 50px;">
+            </div>
+
+            <p id="title" style="color: rgb(0, 103, 34); font-weight: 400;  text-align: center; margin-top: 60px;">Conheça os nossos planos:</p>
+
+            <!-- CARD 1 - COMPRA POR ASSINATURA -->
+
+            <div class="div-cards" style="display: flex; justify-content: space-around; align-items: center; flex-wrap: wrap;">
+                <div class="w3-third w3-margin-bottom">
+                    <ul class="w3-ul w3-border w3-center w3-hover-shadow" style="width: 370px;">
+                        <li class=" w3-xlarge w3-padding-32" style="background-color: rgb(103, 0, 0); width: 370px;">Mensal
+                        </li>
+                        <li class="w3-padding-16">
+                            <p style="color: rgb(103, 0, 0); text-align: center; font: 22px; margin-bottom: 30px;">
+                                Assinatura Caixa Jacarandá</p>
+                            <h2 class="w3-wide" style="color: rgb(103, 0, 0);">R$10</h2>
+                            <p style="text-align: center; margin-top: 0"><span class="w3-opacity" style="color: rgb(103, 0, 0); text-align: center;">por mês</span></p>
+                            <a href="#"><button style="background-color: rgb(103, 0, 0); color: white;">Esgotado!</button></a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- CARD 2 - COMPRA POR UNIDADE -->
+                <div class="w3-third w3-margin-bottom">
+                    <ul class="w3-ul w3-border w3-center w3-hover-shadow" style="width: 370px;">
+                        <li class=" w3-xlarge w3-padding-32" style="background-color: rgb(103, 0, 0); width: 370px;">Unidade
+                        </li>
+                        <li class="w3-padding-16">
+                            <p style="color: rgb(103, 0, 0); text-align: center; font: 22px; margin-bottom: 30px;">Assinatura Caixa Jacarandá</p>
+                            <h2 class="w3-wide" style="color: rgb(103, 0, 0);">R$10</h2>
+                            <p style="text-align: center; margin-top: 0"><span class="w3-opacity" style="color: rgb(103, 0, 0); text-align: center;">por unidade</span></p>
+                            <a href="#"><button
+                                style="background-color: rgb(103, 0, 0); color: white;">Esgotado</button></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- FOOTER DESCRICAO -->
+        <div class="container-description" style="box-shadow: white; border-radius: 10px; width: 100%; text-align: center; background-color: rgb(0, 103, 34); padding: 50px; margin-top: 50px;">
+            <h2 id="title" style="margin-bottom: 50px;">Dúvidas e Perguntas Frequentes</h2>
+            <div class="row" style="display: flex; flex: wrap; flex-direction: column;">
+
+                <details>
+                    <summary style="text-align: right; color: white; text-align: center; margin: 10px; font-weight: 400;">
+                        COMO FUNCIONA O PAGAMENTO?</summary>
+                    <p style="text-align: center; font-weight: 400; max-width: 600px; margin: auto; margin-bottom: 25px;">É uma assinatura mensal. Se cadastrando, o pagamento ocorre automaticamente todo mês entre o dia 1 e 10.
+                    </p>
+                </details>
+                <hr>
+                <details>
+                    <summary style="text-align: right; color: white; text-align: center; margin: 10px; font-weight: 400;">
+                        CANCELAMENTO DA ASSINATURA?</summary>
+                    <p style="text-align: center; font-weight: 400; max-width: 600px; margin: auto; margin-bottom: 25px;">A assinatura pode ser cancelada quando você quiser, antes do dia 1 de cada mês em questão. É só mandar um email para gente que cancelamos sua assinatura e pagamento automático!</p>
+                </details>
+                <hr>
+                <details>
+                    <summary style="text-align: right; color: white; text-align: center; margin: 10px; font-weight: 400;">
+                        SOBRE A ASSINATURA?</summary>
+                    <p style="text-align: center; font-weight: 400; max-width: 600px; margin: auto; margin-bottom: 25px;">
+                        Assinatura do Box Jacarandará é realizado através de um débito mensal. Podendo ser cancelado a qualquer momento.</p>
+                </details>
+                <hr>
+                <details>
+                    <summary style="text-align: right; color: white; text-align: center; margin: 10px; font-weight: 400;">
+                        COMO FUNCIONA O FRETE?</summary>
+                    <p style="text-align: center; font-weight: 400; max-width: 600px; margin: auto; margin-bottom: 25px;">O frete de envio da caixa fica por nossa conta para qualquer cidade do Brasil.</p>
+                </details>
+
+
             </div>
         </div>
 
-        <!-- FOTO 4 -->
-        <div class="design">
-            <p style="color: rgb(0, 103, 34); max-width: 450px; font-weight: 400;">O <strong>sabão em pó
-                    multiuso</strong> é feito de óleo de coco orgânico e bicarbonato de sódio, esse é um produto
-                multiuso e será seu maior aliado pra limpar a casa inteira. Perfeito para lavar roupas, limpar vidros,
-                lavar louça, limpar fogão etc <br><br>Enfim, um multiuso completo com instruções para cada finalidade,
-                que não
-                agride você, nem a sua família e nem o planeta.</p>
-            <img src="https://cdn.awsli.com.br/1746/1746851/arquivos/sabonete coco.jpeg"
-                style="width:350px; border-radius: 50px;">
-        </div>
+        <!-- POP UP WRAPPER -->
+        <script>
+            const button = document.querySelector('button')
+            const popup = document.querySelector('.popup-wrapper')
 
-        <p id="title" style="color: rgb(0, 103, 34); font-weight: 400;  text-align: center; margin-top: 60px;">Conheça
-            os
-            nossos planos:</p>
+            button.addEventListener('click', () => {
+                popup.style.display = 'block'
+            })
 
-        <!-- CARD 1 - COMPRA POR ASSINATURA -->
+            popup.addEventListener('click', event => {
 
-        <div class="div-cards"
-            style="display: flex; justify-content: space-around; align-items: center; flex-wrap: wrap;">
-            <div class="w3-third w3-margin-bottom">
-                <ul class="w3-ul w3-border w3-center w3-hover-shadow" style="width: 370px;">
-                    <li class=" w3-xlarge w3-padding-32" style="background-color: rgb(103, 0, 0); width: 370px;">Mensal
-                    </li>
-                    <li class="w3-padding-16">
-                        <p style="color: rgb(103, 0, 0); text-align: center; font: 22px; margin-bottom: 30px;">
-                            Assinatura
-                            Caixa Jacarandá</p>
-                        <h2 class="w3-wide" style="color: rgb(103, 0, 0);">R$10</h2>
-                        <p style="text-align: center; margin-top: 0"><span class="w3-opacity"
-                                style="color: rgb(103, 0, 0); text-align: center;">por mês</span></p>
-                        <a><button style="background-color: rgb(103, 0, 0); color: white;">Esgotado!</button></a>                        
-                    </li>
-                </ul>
-            </div>            
+                const classNameOfClickedElement = event.target.classList
 
-            <!-- CARD 2 - COMPRA POR UNIDADE -->
-            <div class="w3-third w3-margin-bottom">
-                <ul class="w3-ul w3-border w3-center w3-hover-shadow" style="width: 370px;">
-                    <li class=" w3-xlarge w3-padding-32" style="background-color: rgb(0,103,34); width: 370px;">Unidade
-                    </li>
-                    <li class="w3-padding-16">
-                        <p style="color: rgb(0,103,34); text-align: center; font: 22px; margin-bottom: 30px;">Assinatura
-                            Caixa Jacarandá</p>
-                        <h2 class="w3-wide" style="color: rgb(0,103,34);">R$10</h2>
-                        <p style="text-align: center; margin-top: 0"><span class="w3-opacity"
-                                style="color: rgb(0,103,34); text-align: center;">por unidade</span></p>
-                        <a target="_blank" href="https://projetos-de-robotica-x.lojaintegrada.com.br/teste-"><button
-                                style="background-color: rgb(0,103,34); color: white;">Comprar</button></a>
-                    </li>
-                </ul>
-            </div>
-        </div>
+                const classNames = ['popup-close', 'popup-wrapper', 'popup-link']
 
-    </div>
-
-    <!-- FOOTER DESCRICAO -->
-    <div class="container-description"
-        style="box-shadow: white; border-radius: 10px; width: 100%; text-align: center; background-color: rgb(0, 103, 34); padding: 50px; margin-top: 50px;">
-        <h2 id="title" style="margin-bottom: 50px;">Dúvidas e Perguntas Frequentes</h2>
-        <div class="row" style="display: flex; flex: wrap; flex-direction: column;">
-
-            <details>
-                <summary style="text-align: right; color: white; text-align: center; margin: 10px; font-weight: 400;">
-                    COMO FUNCIONA O PAGAMENTO?</summary>
-                <p style="text-align: center; font-weight: 400; max-width: 600px; margin: auto; margin-bottom: 25px;">É
-                    uma assinatura mensal. Se cadastrando, o pagamento ocorre automaticamente todo mês entre o dia 1 e
-                    10.</p>
-            </details>
-            <hr>
-            <details>
-                <summary style="text-align: right; color: white; text-align: center; margin: 10px; font-weight: 400;">
-                    CANCELAMENTO DA ASSINATURA?</summary>
-                <p style="text-align: center; font-weight: 400; max-width: 600px; margin: auto; margin-bottom: 25px;">A
-                    assinatura pode ser cancelada quando você quiser, antes do dia 1 de cada mês em questão. É só mandar
-                    um email para gente que cancelamos sua assinatura e pagamento automático!</p>
-            </details>
-            <hr>
-            <details>
-                <summary style="text-align: right; color: white; text-align: center; margin: 10px; font-weight: 400;">
-                    SOBRE A ASSINATURA?</summary>
-                <p style="text-align: center; font-weight: 400; max-width: 600px; margin: auto; margin-bottom: 25px;">
-                    Assinatura do Box Jacarandará é realizado
-                    através de um débito mensal. Podendo ser cancelado a qualquer momento.</p>
-            </details>
-            <hr>
-            <details>
-                <summary style="text-align: right; color: white; text-align: center; margin: 10px; font-weight: 400;">
-                    COMO FUNCIONA O FRETE?</summary>
-                <p style="text-align: center; font-weight: 400; max-width: 600px; margin: auto; margin-bottom: 25px;">O
-                    frete de envio da caixa fica por nossa conta para qualquer cidade do Brasil.</p>
-            </details>
-
-
-        </div>
-    </div>
-
-    <!-- POP UP WRAPPER -->
-    <script>
-        const button = document.querySelector('button')
-        const popup = document.querySelector('.popup-wrapper')
-
-        button.addEventListener('click', () => {
-            popup.style.display = 'block'
-        })
-
-        popup.addEventListener('click', event => {
-
-            const classNameOfClickedElement = event.target.classList
-
-            const classNames = ['popup-close', 'popup-wrapper', 'popup-link']
-
-            if (classNames.some(className => className == classNameOfClickedElement)) {
-                popup.style.display = 'none'
-            }
-        })
-    </script>
+                if (classNames.some(className => className == classNameOfClickedElement)) {
+                    popup.style.display = 'none'
+                }
+            })
+        </script>
 
 </body>
 
