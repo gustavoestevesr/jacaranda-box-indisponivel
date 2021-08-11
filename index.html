@@ -44,6 +44,13 @@
             font-size: 1.2rem;
             margin: 25px;
             text-align: justify;
+            font-weight: 400;
+        }
+        
+        .p-destaque {
+            font-size: 1.7rem;
+            font-weight: 400;
+            text-align: center;
         }
         
         .design-description {
@@ -180,8 +187,9 @@
         
         .column {
             display: flex;
-            justify-content: center;
+            justify-content: flex-start;
             align-items: center;
+            flex-direction: column;
         }
         
         .row {
@@ -204,7 +212,7 @@
             .w3-third {
                 margin: auto;
                 display: block;
-                width: 400px;
+                width: 360px;
             }
         }
         
@@ -245,7 +253,7 @@
 
 </head>
 
-<body>
+<body onload="antesDia15AssinaturaDisponivel()">
 
     <!-- BANNER DA MARCA JACARANDARA -->
     <div class="container-jacarandara" style="box-shadow: white; margin-top: 25px; display: flex; align-items: center; justify-content: center; width: 100%; color: white;">
@@ -262,47 +270,40 @@
 
         <p id="title" style=" font-weight: 400; width: 100%; text-align: center; margin-top: 60px">Como Funciona?
         </p>
-
+        <br>
         <div class="row">
             <div class="column">
                 <p style="background-color: rgb(0, 103, 34); color: white; font-weight: bold; width: 60px; height: 60px; padding: 20px; padding-left: 25px; padding-right: 25px; border-radius: 100px; text-align: center; margin: 0;">
                     1</p>
-                <p>Escolha entre a <strong>Assinatura Mensal</strong> ou a <strong>Unidade Caixa de Produtos Jacarandá</strong>.</p>
+                <p style="text-align: center;">Escolha entre a <strong>Assinatura Mensal</strong> ou a <strong>Unidade Caixa de Produtos Jacarandá</strong>.</p>
             </div>
             <div class="column">
-                <p style="background-color: rgb(0, 103, 34); color: white; font-weight: bold; width: 60px; height: 60px;  padding: 20px; padding-left: 25px; padding-right: 25px; border-radius: 100px; text-align: center; margin: 0; margin-top: 20px;">
+                <p style="background-color: rgb(0, 103, 34); color: white; font-weight: bold; width: 60px; height: 60px;  padding: 20px; padding-left: 25px; padding-right: 25px; border-radius: 100px; text-align: center; margin: 0; ">
                     2</p>
-                <p><strong>Realize o pagamento</strong> através do <strong>Mercado Pago</strong> ou <strong>PicPay.</strong></p>
+
+                <p style="text-align: center;"><strong>Realize o pagamento</strong> através do <strong>Mercado Pago</strong> ou <strong>PicPay.</strong></p>
             </div>
             <div class="column">
-                <p style="background-color: rgb(0, 103, 34); color: white; font-weight: bold; width: 60px; height: 60px;  padding: 20px; padding-left: 25px; padding-right: 25px; border-radius: 100px; text-align: center; margin: 0; margin-top: 20px;">
+                <p style="background-color: rgb(0, 103, 34); color: white; font-weight: bold; width: 60px; height: 60px;  padding: 20px; padding-left: 25px; padding-right: 25px; border-radius: 100px; text-align: center; margin: 0; ">
                     3</p>
-                <p>Pronto! <strong>Aguarde a sua caixa de produtos
+
+                <p style="text-align: center;">Pronto! <strong>Aguarde a sua caixa de produtos
                         Jacarandá chegar.</p>
             </div>
         </div>
 
         <div class="row" >
-
-            <p id="title"
-                style=" font-weight: 400; width: 100%; text-align: center; margin-top: 60px; margin-bottom: 0px;">
-                Caixa de Assinatura da
-                Jacarandá
-            </p>
-
-            <br>
-
-                <p style=" font-weight: 400; text-align: center; width: 100%; margin-top: 0;">
-                    <strong>
-                    Produtos para cuidar
-                    de você e da
-                    sua casa por
-                    inteiro,
-                </strong> na sua porta<strong> mensalmente</strong>, em <strong>embalagens biodegradáveis</strong>,
+          
+            <p class="p-destaque" style=" text-align: center; margin-top: 50px; ">
+                Produtos para <strong>cuidar
+                    de você</strong> e da
+                    <strong>sua casa</strong> por inteiro, na sua porta<strong> mensalmente</strong>, em <strong>embalagens biodegradáveis</strong>,
                     <strong>recicláveis</strong> ou <strong>compostáveis</strong>.
                 </p>
 
-                <p style=" font-weight: 400; text-align: center; width: 100%; margin-top: 0;">
+                <p class="p-destaque">
+
+
                     Tudo isso <strong>
                     sem ter
                     que sair de casa
@@ -313,8 +314,8 @@
 
             </div>
 
-            <p id="title" style=" font-weight: 400;  text-align: center; margin-top: 60px">Missão e Valores
-            </p>
+            <br>
+            <br>
 
             <div class="missao-e-valores">
                 <div class="circle">
@@ -326,12 +327,12 @@
                     <spam>Eco<br>Friendly</spam>
                 </div>
                 <div class="circle">
-                    <i class="fas fa-check-circle 4x"></i>
-                    <spam>Produtos<br>de Qualidade</spam>
-                </div>
-                <div class="circle">
                     <i class="fas fa-heart 4x"></i>
                     <spam>Ingredientes<br>Naturais</spam>
+                </div>
+                <div class="circle">
+                    <i class="fas fa-check-circle 4x"></i>
+                    <spam>Produtos<br>de Qualidade</spam>
                 </div>
                 <div class="circle">
                     <i class="fas fa-ban 4x"></i>
@@ -357,7 +358,7 @@
                         <li>Sem desperdício.</li>
                         <li>Feitos de ingredientes naturais e orgânicos.</li>
                         <li>Embalagens biodegradáveis ou reutilizáveis.</li>
-                        <li>Causar menos impacto negativo ao meio ambiente com suas rotinas.</li>
+                        <li>Para causar um menor impacto ao meio ambiente com suas rotinas.</li>
                     </ul>
                     <p class="design-description">Uma forma de ter na porta da sua casa todos os produtos essenciais para cuidado da casa e do corpo. orgânicos, artesanais e naturais!</p>
                 </div>
@@ -367,8 +368,8 @@
             <div class="design">
                 <div class="div">
                     <h2 style="margin-left: 25px;">Sabonete Multifuncional</h2>
-                    <p class="design-description">Uma mesma barra para seus cabelos, rosto e corpo feita com óleos e manteigas vegetais prensados a frio e óleos essenciais, para tratar e cuidar da pele e cabelos sem agredir e sem produtos químicos estranhos. Cada mês um novo e exclusivo
-                        pra você experimentar os benefícios de diferentes óleos e plantas.</p>
+                    <p class="design-description">Uma mesma barra para seus cabelos, rosto e corpo feita com óleos e manteigas vegetais prensados a frio e óleos essenciais, para tratar e cuidar da pele e cabelos sem agredir e sem produtos químicos estranhos.<br><br>Cada mês um novo
+                        e exclusivo pra você experimentar os benefícios de diferentes óleos e plantas.</p>
                 </div>
                 <img src="sabao multifuncional.jpeg" style="width: 300px; border-radius: 50px;">
             </div>
@@ -378,8 +379,8 @@
                 <img src="https://cdn.awsli.com.br/1746/1746851/arquivos/ecopad 1.jpeg" style="height: 250px; border-radius: 50px;">
                 <div class="div">
                     <h2 style="margin-left: 25px;">Bucha Vegetal</h2>
-                    <p class="design-description">São uma opção mais sustentável do que a esponja de cozinha e de banho. Por ser biodegradável e compostável não gera impacto ao meio ambiente.<br><br>Ela realiza uma esfoliação natural, pois o atrito das fibras naturais sobre a pele
-                        promove a  retirada de impurezas e células mortas. Por ser um produto artesanal as medidas podem variar.</p>
+                    <p class="design-description">É uma opção mais sustentável do que a esponja de cozinha e de banho. Por ser biodegradável e compostável não gera impacto ao meio ambiente.<br><br>Ela realiza uma esfoliação natural, pois o atrito das fibras naturais sobre a pele promove
+                        a  retirada de impurezas e células mortas. Por ser um produto artesanal as medidas podem variar.</p>
                 </div>
             </div>
 
@@ -410,10 +411,9 @@
                 <img src="https://cdn.awsli.com.br/1746/1746851/arquivos/sabonete coco.jpeg" style="width:300px; border-radius: 50px;">
                 <div class="div">
                     <h2 style="margin-left: 25px;">Sabão em pó multiuso</h2>
-                    <p class="design-description">Feito de óleo de coco orgânico e bicarbonato de sódio, esse é um produto multiuso e será seu maior aliado pra limpar a casa inteira. Perfeito para lavar roupas, limpar vidros, lavar louça, limpar fogão... Enfim, um multiuso completo
-                        com instruções para cada finalidade, que não agride você, nem a sua família e nem o planeta.</p>
+                    <p class="design-description">Feito de óleo de coco orgânico e bicarbonato de sódio, esse é um produto multiuso e será seu maior aliado pra limpar a casa inteira. Perfeito para lavar roupas, limpar vidros, lavar louça, limpar fogão.</p>
                     <h2 style="margin-left: 25px;">Sabão de coco em barra</h2>
-                    <p class="design-description">Para lavar a louça ou o que for necessário na sua casa!</p>
+                    <p class="design-description">Uma barra natural e vegana feita 100% de coco com espuma Biodegadável. Para lavar a louça ou o que for necessário na sua casa!</p>
                 </div>
             </div>
 
@@ -421,14 +421,14 @@
             <div class="design">
                 <div class="div">
                     <h2 style="margin-left: 25px;">SURPRESA</h2>
-                    <p class="design-description">Todo mês, um produto variados. Eles podem ser produtos que proporcionam um momento precioso de autocuidado, pausa e conexão. (Ex: Sais de ervas, blend de argilas, condicionador e etc).</p>
+                    <p class="design-description">Todo mês, um produto variado. Produtos que proporcionam um momento precioso de autocuidado, pausa e conexão. (Ex: Sais de ervas, blend de argilas, condicionador e etc).</p>
                 </div>
                 <img src="Foto Surpresa.jpeg" style="width:300px; border-radius: 50px;">
             </div>
 
             <br>
 
-            <p style=" font-weight: 400; text-align: center; width: 100%; margin: 0; margin-top: 10px; font-size: 2rem;">
+            <p class="p-destaque">
                 Para <strong>
                 mudanças de
                 hábitos
@@ -445,7 +445,7 @@
 
             <!-- CARD 1 - COMPRA POR ASSINATURA -->
 
-            <div class="div-cards">
+            <div class="div-cards" id="indisponivel">
                 <div class="w3-third w3-margin-bottom">
                     <ul class="w3-ul w3-border w3-center w3-hover-shadow">
                         <li class=" w3-xlarge w3-padding-32" style="background-color: rgb(103, 0, 0); text-align: center; color: white; margin-right: 5px;">Mensal
@@ -508,6 +508,7 @@
                         COMO FUNCIONA O FRETE?</summary>
                     <p style="text-align: center; color: white; font-weight: 400; max-width: 600px; margin: auto; margin-bottom: 25px; ">O frete de envio da caixa fica por nossa conta para qualquer cidade do Brasil.</p>
                 </details>
+                <hr>
                 <details>
                     <summary style="text-align: right; color: white; text-align: center; margin: 10px; font-weight: 400; ">
                         PRAZO DE ENVIO?</summary>
