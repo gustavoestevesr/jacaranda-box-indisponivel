@@ -207,12 +207,19 @@
             width: 200px;
         }
         
+        #bem-estar-natural {
+            display: none;
+        }
+        
         @media screen and (max-width: 800px) {
             .w3-ul,
             .w3-third {
                 margin: auto;
                 display: block;
                 width: 360px;
+            }
+            #bem-estar-natural {
+                display: flex;
             }
         }
         
@@ -247,6 +254,9 @@
             }
             #ul-li {
                 margin-right: 30px;
+            }
+            #bem-estar-natural {
+                display: flex;
             }
         }
     </style>
@@ -444,7 +454,6 @@
             <p id="title">Conheça os nossos planos:</p>
 
             <!-- CARD 1 - COMPRA POR ASSINATURA -->
-
             <div class="div-cards" id="indisponivel">
                 <div class="w3-third w3-margin-bottom">
                     <ul class="w3-ul w3-border w3-center w3-hover-shadow">
